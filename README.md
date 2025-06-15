@@ -43,7 +43,7 @@ A C# console application that simulates a zoo ecosystem with various animals, pr
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/HayvanatBahcesi.git
+git clone https://github.com/CivanK/HayvanatBahcesi.git
 ```
 
 2. Navigate to the project directory
@@ -70,11 +70,3 @@ The simulation runs for 1000 iterations and provides:
 - Gender distribution statistics
 - Kill counts for predators and hunter
 - Position information for remaining animals
-
-## Future Improvements
-
-- Add more animal types
-- Implement more complex behavior patterns
-- Add visualization of the zoo
-- Include environmental factors
-- Add configuration options for simulation parameters 
