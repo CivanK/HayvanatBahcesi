@@ -38,7 +38,6 @@ A C# console application that simulates a zoo ecosystem with various animals, pr
 ## Requirements
 
 - .NET 6.0 or later
-- Visual Studio 2022 or Visual Studio Code
 
 ## How to Run
 
