@@ -127,7 +127,6 @@ namespace HayvanatBahcesi.Services
                             if (baby != null)
                             {
                                 Animals.Add(baby);
-                                // Initialize kill tracking for predator offspring
                                 if (baby is Wolf wolf)
                                     wolfKills[wolf] = 0;
                                 else if (baby is Lion lion)
@@ -154,7 +153,6 @@ namespace HayvanatBahcesi.Services
             Console.WriteLine("\nPredator Kill Report:");
             Console.WriteLine("===================");
             
-            // Print Wolf kills
             var wolves = Animals.OfType<Wolf>().ToList();
             if (wolves.Any())
             {
@@ -166,7 +164,6 @@ namespace HayvanatBahcesi.Services
                 }
             }
 
-            // Print Lion kills
             var lions = Animals.OfType<Lion>().ToList();
             if (lions.Any())
             {
@@ -178,7 +175,6 @@ namespace HayvanatBahcesi.Services
                 }
             }
 
-            // Print Hunter kills
             Console.WriteLine($"\nHunter Kills: {hunterKills}");
         }
 
